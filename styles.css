@@ -1,3 +1,5 @@
+
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -33,6 +35,7 @@ hr{
 }
 .non-bullets{
     list-style: none;
+    text-align: right;
 }
 .list-item-inline{
     display: inline;
@@ -40,17 +43,100 @@ hr{
 }
 /* nav */
 .navigation-link{
-    background-color: lightblue;
+    background-color:	rgb(51, 73, 138);
+    padding:1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 .navigation-link .link{
-    color: white;
-    
+    color: white;   
 }
 .main-name{
-    color: lightcoral;
-    font-style: italic;
-    font-size: 1.1rem;
+    color:	rgb(221, 81, 34);
+    font-style: bold;
+    font-size: 22px;
 }
 .navigation .nav-pills{
     text-align: right;
+}
+.link-active{
+    font-weight: bold;
+}
+/* headers */
+.hero{
+    padding: 2rem;
+}
+.hero-img{
+    max-width: 400px;
+    margin: auto;
+    display: block;
+}
+.hero-name{
+    color: gray;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+}
+.hero-inverted{
+    color: var(--primary-color);
+}
+/* secions */
+.section{
+    padding: 2rem;
+}
+.section h3{
+    text-align: center;
+}
+.container-center{
+    text-align: center;
+}
+.ctn-header{
+    color: blue;
+    text-align: center;
+}
+.social-links{
+    list-style: none;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    font-size: 19px;
+    
+}
+.footer-head{
+    padding-left: 0rem;
+    color: red;
+}
+.footer{
+    background-color: 	rgb(150, 146, 150);
+    padding: 2rem 0rem;
+    text-align: center;
+}
+.footer-head{
+    text-align: left;
+}
+.ending{
+    text-align: right;
+    color: orange;
+    font-size: 18px;
+    font-style: italic;
+}
+.non-bullets li a:hover{
+    color: 	rgb(221, 81, 34);
+}
+.main-part{
+    color: #000000;
+}
+.para-upper{
+    color: 	rgb(0, 163, 41);
+}
+.para-down{
+    color: 	rgb(0, 163, 41);
+}
+.para-downer{
+    color: 	rgb(0, 163, 41) ;
+}
+.links:hover{
+    color: 	rgb(221, 81, 34);
 }
