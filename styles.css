@@ -150,3 +150,13 @@ hr{
 #projects{
     text-align: center;
 }
+#secondary{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-style: bold;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid black;
+}
