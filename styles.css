@@ -46,15 +46,13 @@ hr{
     background-color:	rgb(51, 73, 138);
     padding:1rem;
     border-bottom-left-radius: 1rem;
-    border-top-right-radius: 1rem;
 }
 .navigation-link .link{
     color: white;   
 }
 .main-name{
-    color:	rgb(221, 81, 34);
-    font-style: bold;
-    font-size: 22px;
+    color:#f5f5f5;
+    font-weight: bold;
 }
 .navigation .nav-pills{
     text-align: right;
@@ -109,8 +107,8 @@ hr{
     color: red;
 }
 .footer{
-    background-color: 	rgb(150, 146, 150);
-    padding: 2rem 0rem;
+    background-color: #e5e5e5;
+    padding: 3rem 0rem;
     text-align: center;
 }
 .footer-head{
@@ -148,4 +146,7 @@ hr{
     font-size: 15px;
     font-style: bold;
     padding: 0.5rem 0.5rem;
+}
+.links{
+    color: black;
 }
