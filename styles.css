@@ -172,8 +172,9 @@ hr{
 }
 #learn{
     background-color: black;
-    color: orange;
+    color: white;
     padding: 1rem;
+    font-weight: bold;
 }
 #learn a{
     text-decoration: none;
