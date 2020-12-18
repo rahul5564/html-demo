@@ -164,7 +164,17 @@ hr{
     max-width: 400px;
     margin: auto;
     display: block;
+    justify-content: center;
+    align-items: center;
 }
 #img-btext{
     text-align: center;
+}
+#learn-sm{
+    background-color: black;
+    color: orange;
+    padding: 1rem;
+}
+#learn-sm a{
+    text-decoration: none;
 }
